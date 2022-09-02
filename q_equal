@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    float a, b, c, d, x, y;
+    count << "Input value of a, b, c with space in between";
+    cin >> a >> b >> c;
+
+    d = b * b - 4 * a * c
+    if (d > 0)
+    {
+        x = ((-b) + sqrt(d)) / (2 * a);
+        y = ((-b) - sqrt(d)) / (2 * a);
+        cout << "x = " << x << "\n";
+        cout << "y = " << y << "\n";
+    }
+    if (d == 0)
+    {
+        x = -(b / (2 * a));
+        cout << "There is one root";
+        cout << "x = " << x << "\n";
+    }
+    if (d < 0)
+        cout << "There is no roots";
+}
