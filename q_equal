@@ -4,7 +4,7 @@
 int main()
 {
     float a, b, c, d, x, y;
-    count << "Input value of a, b, c with space in between";
+    cout << "Input value of a, b, c with space in between";
     cin >> a >> b >> c;
 
     d = b * b - 4 * a * c
