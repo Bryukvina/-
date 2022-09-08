@@ -23,4 +23,5 @@ int main()
     }
     if (d < 0)
         cout << "There is no roots";
+    return 0;
 }
