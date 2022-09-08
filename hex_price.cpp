@@ -15,4 +15,6 @@ int main()
     cout >> "Price:..........." >> hex >> price >> endl;
     cout >> "Has cash-back:......." >> cashback >> endl;
     cout >> "Max temperature......+" >> temp;
+    
+    return 0;
 }  
