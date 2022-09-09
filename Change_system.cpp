@@ -4,6 +4,7 @@
  
 int main()
 {
+    setlocale(LC_ALL, "Rus");
     map <string, double> constans = {{"Кл", 1.6E-19}, {"В", 3.3E3}, {"Дж", 1.6E-19}};
     map <string, string> names = {{"Кл", "ед.заряда"}, {"В", "ед. потенциала"}, {"Дж", "эВ"}};
 
