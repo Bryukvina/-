@@ -5,25 +5,29 @@ using namespace std;
 
 int main()
 {
-    float a, b, c, d, x, y;
-    cout << "Input value of a, b, c with space in between";
+    float a, b, c, disc, x, y;
+    cout << "The equation is ax^2 + bx + c = 0." << endl;
+    cout << "Confines is: a != 0, a^2 + b^2 + c^2 != 0" << endl;
+    cout << "Input value of a, b, c with space in between:" << endl;
     cin >> a >> b >> c;
 
-    d = b * b - 4 * a * c
-    if (d > 0)
+    disc = b * b - 4 * a * c;
+    
+    if (disc > 0)
     {
-        x = ((-b) + sqrt(d)) / (2 * a);
-        y = ((-b) - sqrt(d)) / (2 * a);
+        x = ((-b) + sqrt(disc)) / (2 * a);
+        y = ((-b) - sqrt(disc)) / (2 * a);
+        cout << "There is two roots:" << endl;
         cout << "x = " << x << "\n";
         cout << "y = " << y << "\n";
     }
-    if (d == 0)
+    if (disc == 0)
     {
         x = -(b / (2 * a));
-        cout << "There is one root";
+        cout << "There is one root:" << endl;
         cout << "x = " << x << "\n";
     }
-    if (d < 0)
+    if (disc < 0)
         cout << "There is no roots";
     return 0;
 }
